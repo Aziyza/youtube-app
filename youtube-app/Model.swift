@@ -29,9 +29,18 @@ class Model {
                 return
             }
             
-            print("RESPONSE🥳", response as Any)
+            do {
+                //Parsing data into video objects
+                let decoder = JSONDecoder()
+                decoder.dateDecodingStrategy = .iso8601
+                let response = try decoder.decode(Response.self, from: data!)
+                dump(response)
+                
+            } catch {
+                
+            }
             
-            //Parsing data into video objects
+            
         }
         
         //Kick off the task
