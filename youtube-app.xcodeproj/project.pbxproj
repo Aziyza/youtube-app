@@ -16,6 +16,8 @@
 		0401012D24917C7B009FD261 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401012C24917C7B009FD261 /* Constants.swift */; };
 		0401012F24918056009FD261 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401012E24918056009FD261 /* Video.swift */; };
 		040101312491810C009FD261 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040101302491810C009FD261 /* Model.swift */; };
+		0401013324919710009FD261 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401013224919710009FD261 /* ConstantsTemplate.swift */; };
+		04DAC48724940E5A007FBD47 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAC48624940E5A007FBD47 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		0401012C24917C7B009FD261 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0401012E24918056009FD261 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		040101302491810C009FD261 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0401013224919710009FD261 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
+		04DAC48624940E5A007FBD47 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				0401012C24917C7B009FD261 /* Constants.swift */,
 				0401012E24918056009FD261 /* Video.swift */,
 				040101302491810C009FD261 /* Model.swift */,
+				0401013224919710009FD261 /* ConstantsTemplate.swift */,
+				04DAC48624940E5A007FBD47 /* Response.swift */,
 			);
 			path = "youtube-app";
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DAC48724940E5A007FBD47 /* Response.swift in Sources */,
+				0401013324919710009FD261 /* ConstantsTemplate.swift in Sources */,
 				0401011D24916514009FD261 /* ViewController.swift in Sources */,
 				0401011924916514009FD261 /* AppDelegate.swift in Sources */,
 				0401011B24916514009FD261 /* SceneDelegate.swift in Sources */,
